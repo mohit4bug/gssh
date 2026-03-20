@@ -18,6 +18,12 @@ It generates SSH keys and updates your SSH config so you can use multiple identi
 ## Getting Started
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/mohit4bug/gssh/main/install.sh | bash
+```
+
+Alternative:
+
+```bash
 go install github.com/mohit4bug/gssh@latest
 ```
 
